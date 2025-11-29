@@ -1,0 +1,315 @@
+/* File: assets/style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.btn.active {
+    background: #e74c3c;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Pokemon Card */
+.pokemon-card {
+    text-align: center;
+}
+
+.pokemon-info {
+    display: inline-block;
+    text-align: left;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.type-fighting {
+    background: #c03028;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+/* Training Form */
+.training-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group select,
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-training {
+    width: 100%;
+    padding: 15px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-training:hover {
+    background: #219a52;
+    transform: translateY(-2px);
+}
+
+/* Training Result */
+.training-result {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.result-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.special-move {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stat-changes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stat-change {
+    text-align: center;
+}
+
+.change {
+    font-size: 1.2em;
+}
+
+.current-stats {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Effectiveness Bars */
+.effectiveness-bars {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.effectiveness-item {
+    margin-bottom: 15px;
+}
+
+.bar {
+    background: #ecf0f1;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    background: linear-gradient(90deg, #27ae60, #2ecc71);
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+/* History Table */
+.history-table {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #34495e;
+    color: white;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+/* Summary */
+.report-summary {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.summary-item {
+    text-align: center;
+}
+
+.number {
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.label {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Progress Chart */
+.chart-container {
+    margin-top: 20px;
+}
+
+.chart-bar-item {
+    margin-bottom: 10px;
+}
+
+.bar-level {
+    background: #3498db;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: width 0.5s ease;
+}
+
+.bar-label {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #7f8c8d;
+}
+
+.empty-state h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .stat-changes {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .report-summary {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    .btn {
+        text-align: center;
+    }
+}
