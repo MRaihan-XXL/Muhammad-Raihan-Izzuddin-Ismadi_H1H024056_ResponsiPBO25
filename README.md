@@ -15,22 +15,11 @@ Aplikasi simulasi pelatihan Pokémon Machamp yang mengimplementasikan 4 pilar OO
 3. Polymorphism - Override method train() dan specialMove()
 4. Abstraction - Abstract class Pokemon dengan method abstract
 
-## Cara Menjalankan Aplikasi
+## Informasi Tambahan
 
-1. Pastikan environment PHP sudah terinstall
-2. Simpan semua file dalam satu folder web server
-3. Buka file `index.php` melalui web browser
-4. Gunakan navigasi untuk berpindah halaman
+Assalamualaikum wr. wb. 
+Mohon maaf sebelumnya, saya ingin menyampaikan beberapa hal. Yaitu sebelumnya outputnya bisa ditampilkan, akan tetapi hanya bisa sekali saja dan itupun langsung error. Selanjutnya mohon maaf ini kidengaran seperti alasan, tetapi kondisi saya memang kurang baik sehingga saya tidak bisa melakukannya secara maksimal. 
 
-## Fitur yang Tersedia
+Maka dari itu mohon maaf sebesar-besarnya 🙏🏿🙏🏿🙏🏿. 
 
-- ✅ Halaman Beranda dengan info Pokémon
-- ✅ Halaman Latihan dengan form training
-- ✅ Halaman Riwayat dengan history sesi latihan
-- ✅ Peningkatan Level & HP berdasarkan jenis latihan
-- ✅ Jurus spesial Dynamic Punch
-
-## Video Demo
-
-[Link video demonstrasi aplikasi]
-
+Sekian dari saya, terima kasih.
